@@ -20,14 +20,14 @@ namespace String_övningar
             Console.WriteLine("\"Hello world\"");
             Console.ReadKey();
             */
-            //Övning 3
+            //Övning 3a
             /*
             string y = "Hello world";
             string x = y.ToUpper();
             Console.WriteLine(x);
             Console.ReadKey();
             */
-            //Övning 4
+            //Övning 3b
             /*
             string y = "HELLO WORLD";
             string x = y.ToLower();
@@ -35,15 +35,22 @@ namespace String_övningar
             Console.ReadKey();
             */
             //Övning 5
+            /*
+            string world = "Hello world";
+            Console.WriteLine(world.Length);
+            Console.ReadKey();
+            */
+            //Övning 6
 
             Console.WriteLine("Skriv in något:");
             string inmatat = Console.ReadLine();
 
-            for (int i = inmatat.Length; i > inmatat.Length; i--)
+            for (int i = inmatat.Length; i > 0; i--)
             {
                 Console.WriteLine(inmatat[i]);
             }
-            Console.ReadKey();
+            
+
 
 
 
