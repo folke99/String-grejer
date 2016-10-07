@@ -34,22 +34,43 @@ namespace String_övningar
             Console.WriteLine(x);
             Console.ReadKey();
             */
-            //Övning 5
+            //Övning 4
             /*
             string world = "Hello world";
             Console.WriteLine(world.Length);
             Console.ReadKey();
             */
-            //Övning 6 INTE KLAR
+            //Övning 5
             /*
             Console.WriteLine("Skriv in något:");
             string inmatat = Console.ReadLine();
+            string bakNamn = "";
 
-            for (int i = inmatat.Length; i > 0; i--)
+            for (int i = inmatat.Length -1; i >= 0; i--)
             {
-                Console.WriteLine(inmatat[i]);
+                bakNamn = bakNamn + inmatat[i];
             }
+            Console.WriteLine(bakNamn);
+            Console.ReadKey();
             */
+            //Övning 6
+            /*
+            string låt = "{0} elefant{1} balanserade på en liten liten spindel trååååååd. \n"
+                       + "Det tyckte {2} var så intressant,\n"
+                       + "så {2} gick och hämtade en annan elefant";
+
+            string index = string.Format(låt, "en", "", "han");
+            Console.WriteLine(index);
+
+            for (int i = 1; i < 10;)
+            {
+                index = string.Format(låt, ++i, "er", "de");
+                Console.WriteLine(index);
+            }
+            Console.ReadKey();
+            */
+            //Övning 7 INTE KLAR
+
             // Övning 2.1
             /*
             DateTime dt = DateTime.Now;
@@ -68,12 +89,6 @@ namespace String_övningar
             Console.ReadKey();
             */
             //Övning 2.4
-
-            string 
-
-            Console.WriteLine("{}");
-            Console.ReadKey();
-
 
 
         }
