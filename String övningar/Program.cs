@@ -40,8 +40,8 @@ namespace String_övningar
             Console.WriteLine(world.Length);
             Console.ReadKey();
             */
-            //Övning 6
-
+            //Övning 6 INTE KLAR
+            /*
             Console.WriteLine("Skriv in något:");
             string inmatat = Console.ReadLine();
 
@@ -49,9 +49,30 @@ namespace String_övningar
             {
                 Console.WriteLine(inmatat[i]);
             }
-            
+            */
+            // Övning 2.1
+            /*
+            DateTime dt = DateTime.Now;
+            Console.WriteLine(dt.ToString("d"));
+            Console.ReadKey();
+            */
+            //Övning 2.2
+            /*
+            double cirkelArea = Math.PI * 4 * 4;
+            Console.WriteLine(cirkelArea.ToString("F4"));
+            Console.ReadKey();
+            */
+            //Övning 2.3
+            /*
+            Console.WriteLine("{0:000,000,000}", 1000000000);
+            Console.ReadKey();
+            */
+            //Övning 2.4
 
+            string 
 
+            Console.WriteLine("{}");
+            Console.ReadKey();
 
 
 
