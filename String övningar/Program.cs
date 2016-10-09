@@ -68,12 +68,17 @@ namespace String_övningar
             Console.ReadKey();
             */
             //Övning 2.4
-
-            string 
-
-            Console.WriteLine("{}");
+            
+            double index = 123.00;
+            Console.WriteLine("Det blir" + " {0:0} kr och {1:0} öre", index, 00);
             Console.ReadKey();
-
+            
+            //Övning 2.5
+            /*
+            int inmatat = int.Parse(Console.ReadLine());
+            Console.WriteLine("{0:0000,00,00,0000}", inmatat);
+            Console.ReadKey();
+            */
 
 
         }
