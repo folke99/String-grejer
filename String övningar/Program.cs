@@ -129,8 +129,8 @@ namespace String_övningar
             //Övning 2.5
             /*
             Console.Write("Mata in ditt personnummer:");
-            double persNum = double.Parse(Console.ReadLine());
-            string format = "{0:####,##,## - ####}";
+            long persNum = long.Parse(Console.ReadLine());
+            string format = "{0:#### ## ##-####}";
             string ut = string.Format(format, persNum);
             Console.WriteLine("Är ditt personnummer: " + ut);
             Console.ReadKey();
